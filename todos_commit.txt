@@ -1,0 +1,23 @@
+commit a74645b3cf4c4a80dad097772f12d2f64ff52273
+Author: juan camilo <nuevojuanchaco67@gmail.com>
+Date:   Sun Mar 6 10:40:01 2016 -0500
+
+    modificar link
+
+commit 5770aa18d0907278350d978acf3a008f007b75c5
+Author: juan camilo <nuevojuanchaco67@gmail.com>
+Date:   Sun Mar 6 10:36:42 2016 -0500
+
+    agrego todo
+
+commit 03a08c84f7f610e2e73ac33f7d03c420cca50c87
+Author: juan camilo <nuevojuanchaco67@gmail.com>
+Date:   Sun Mar 6 10:33:02 2016 -0500
+
+    modifique la foto
+
+commit a7260c21dd2d35203eadcbfef49ed4f1b36e0deb
+Author: juan camilo <nuevojuanchaco67@gmail.com>
+Date:   Sun Mar 6 10:23:30 2016 -0500
+
+    Estos son los archivos
