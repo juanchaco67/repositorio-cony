@@ -78,7 +78,7 @@ git remote add origin https://github.com/juanchaco67/repositorio-cony =Es un com
 origin=se utiliza cuando voy a subir a mi repositorio si no es mi repositorio no va la palabra clave origin es decir ejemplo.
 git emote add URL.
 
-git remote -v=este comando me enseña la dirreccion donde esta el repositorio en git hub o el origin
+git remote --v=este comando me enseña la dirreccion donde esta el repositorio en git hub o el origin
 
 git push=empuja los commit que tiene git a github (de local al servidor).
 ejemplo
