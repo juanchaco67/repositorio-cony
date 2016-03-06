@@ -1,0 +1,93 @@
+clase 1----------------------------------------------------------
+git config --global user.name "juan camil"=configuracion del nombre
+
+git config --global user.email "nuevojuanchaco67@gmail.com"
+
+git config --global --list=ver la lista ejemplo muestra todo lo anterior. las variables
+
+git init =iniciar el repositorio git en la capeta destino
+
+git helper =muestra todos los comandos que trae git y para que sirve
+
+git helper comando =nos muestra una descripcion mas detalla del comando ejemplo (git helper add);
+
+git status =nos muestra los estado del proyecto (nos muestra que archivos estan en el working area y en el staging area)
+
+----de aqui para atra era el working area
+
+git add -A =quiero que guarde todos los archivos y empiece a arrastrear.(esto lo sube al staging area)
+
+git add index otro otro otro archivos =se pueden agregar archivos individuales
+
+git commit -m "mensaje"= esto lo sube al repostiorio.
+
+
+git log=nos dice cuantos commit y cuando es el historial(son las bolitas verdes del pinche video).
+
+git checkout el numero que aprece en los commit=nos permite ver como esta el proyecto en un estado del tiempo.
+git checkout 25345342jh5k32k4g5j34
+git checkout master =regresa todo a la normalidad.
+
+
+git reset=estoy en un punto y quiero regrsar a un punto anterior esto lo que hace es borrar los puntos intermedios.
+git reset --soft 435234524354325=es un reset tranquilo =voy a borrar esto commit pero te dejo con el ultimo trabajo echo que significa que la parte del ide que tal cual como estaba
+git reset --mixed 435234524354325=en el momento que se hacen los cambios el staging area se va al carajo.
+git reset --hard 435234524354325=he quiero borrarte todo incluyendo lo que tienes en el IDE
+si una vez tenemos ingresado el comando anterior y eliminamos el proyecto o cambios en podemos volver otravez al punto con el mismo commit es decir (git reset --hard 435234524354325)
+
+
+clase 2 ------------------------------------------------------------
+
+ramas
+
+
+git branch nombre_rama
+git branch obtiene los nosmbres de las ramas
+git cheackout=moverce entre ramas.(git checkout nombre_rama)
+
+
+git log --oneline --graph --all =ver las ramas en forma de grafico
+
+PODEMOS PONER ALIAS PARA LINEAS DE CODIGO DE  GIT EJEMPLO 
+
+git config --global alias.guiramas 'log --oneline --graph --all'
+
+git guiramas
+
+fusiones--------------------------------------------
+
+git checkout master=ubicarnos en la linea de tiempo del proeyecto
+git merge prueba=nombre de la rama.
+
+git branch --merged=ver las ramas que se fusionaron
+
+borrar ramas---------------------------------------------------
+git branch -d nombre_rama
+
+
+
+git hub----------------------------------------------
+Es una plataforma para proyecto web
+
+
+git clone URL=lo que hace es copiar todo el repositorio de un proyecto + sus ramas y commit.
+
+
+
+git remote add origin https://github.com/juanchaco67/repositorio-cony =Es un comando para enlazar al servidor.
+origin=se utiliza cuando voy a subir a mi repositorio si no es mi repositorio no va la palabra clave origin es decir ejemplo.
+git emote add URL.
+
+git remote -v=este comando me enseña la dirreccion donde esta el repositorio en git hub o el origin
+
+git push=empuja los commit que tiene git a github (de local al servidor).
+ejemplo
+git push origin master= Es la rama que voy a enviar a git hub, ouede ser tambien prueba
+
+
+
+
+
+
+
+
